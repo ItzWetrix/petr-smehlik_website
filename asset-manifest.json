@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/petr-smehlik_website/static/css/main.32612113.css",
-    "main.js": "/petr-smehlik_website/static/js/main.7b0ea95d.js",
+    "main.js": "/petr-smehlik_website/static/js/main.8b5cccff.js",
     "index.html": "/petr-smehlik_website/index.html",
     "main.32612113.css.map": "/petr-smehlik_website/static/css/main.32612113.css.map",
-    "main.7b0ea95d.js.map": "/petr-smehlik_website/static/js/main.7b0ea95d.js.map"
+    "main.8b5cccff.js.map": "/petr-smehlik_website/static/js/main.8b5cccff.js.map"
   },
   "entrypoints": [
     "static/css/main.32612113.css",
-    "static/js/main.7b0ea95d.js"
+    "static/js/main.8b5cccff.js"
   ]
 }
