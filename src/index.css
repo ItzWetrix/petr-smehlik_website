@@ -1,0 +1,21 @@
+body {
+    background-color: var(--secondary-bg-color);
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.pageContent {
+    padding: 10px 50px 0px 50px;
+}
+
+.AppContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}

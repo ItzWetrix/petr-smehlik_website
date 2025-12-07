@@ -1,0 +1,48 @@
+.switcher {
+    background-color: var(--primary-bg-color);
+    padding: 7px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.switcher button {
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--primary-text-color);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: var(--primary-text-font);
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.switcher button:active {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.switcher button.active {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.switcher button:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.switcher button img {
+    width: 20px;
+    height: 20px;
+}

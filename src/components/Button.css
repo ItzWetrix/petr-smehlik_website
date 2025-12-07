@@ -1,0 +1,18 @@
+.basic-button {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    font-family: var(--primary-text-font);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.basic-button {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+}
+
+.basic-button:hover {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0.8;
+}

@@ -1,0 +1,14 @@
+.NotFoundDiv h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.NotFoundDiv p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.589);
+}
+
+.NotFoundDiv {
+    text-align: center;
+    margin-top: 100px;
+}

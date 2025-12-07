@@ -1,0 +1,45 @@
+.topBar {
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* for Safari */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    z-index: 9999;
+
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.topBar h1 {
+    margin: 15px;
+}
+
+.topBar .navigationButtons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    margin: 15px;
+}
+
+.topBarBackground {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    z-index: 2;
+}
+
+.topBar .pageNameHeading {
+    text-decoration: none;
+    color: inherit;
+}

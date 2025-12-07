@@ -1,0 +1,17 @@
+.navbar-button {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-family: var(--primary-text-font);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.navbar-button {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+}
+
+.navbar-button:hover {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0.8;
+}

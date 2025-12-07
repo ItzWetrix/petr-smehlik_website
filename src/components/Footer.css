@@ -1,0 +1,30 @@
+.footerBar {
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    z-index: 9999;
+
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    background-color: var(--primary-bg-color);
+}
+
+.footerBar .navigationButtons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    margin: 50px;
+}
+
+.footerBar p {
+    margin: 50px;
+    color: rgba(255, 255, 255, 0.7);
+}
